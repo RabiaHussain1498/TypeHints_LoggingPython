@@ -1,0 +1,24 @@
+2026-07-27 18:27:27,803 - INFO - Deposit of 2500.00 received for Farooq
+2026-07-27 18:27:27,803 - INFO - Balance after deposit: 4000.00
+2026-07-27 18:27:27,804 - WARNING - Wrong type caused a runtime error: unsupported operand type(s) for +=: 'float' and 'str'
+2026-07-27 18:27:27,804 - WARNING - Withdrawal failed for Farooq: requested 10000.00, available 4000.00
+2026-07-27 18:27:27,804 - ERROR - Insufficient funds error raised for Farooq
+2026-07-27 18:27:27,804 - INFO - Available balance: 4000.00
+2026-07-27 20:00:47,601 - INFO - Deposit of 2500.00 received for Farooq
+2026-07-27 20:00:47,601 - INFO - Balance after deposit: 4000.00
+2026-07-27 20:00:47,601 - WARNING - Wrong type caused a runtime error: unsupported operand type(s) for +=: 'float' and 'str'
+2026-07-27 20:00:47,601 - WARNING - Withdrawal failed for Farooq: requested 10000.00, available 4000.00
+2026-07-27 20:00:47,601 - ERROR - Insufficient funds error raised for Farooq
+2026-07-27 20:00:47,602 - INFO - Available balance: 4000.00
+2026-07-28 14:38:51,406 - INFO - Deposit of 2500.00 received for Farooq
+2026-07-28 14:38:51,406 - INFO - Balance after deposit: 4000.00
+2026-07-28 14:38:51,406 - INFO - Total bank balance: 1000.00
+2026-07-28 14:38:51,406 - WARNING - Python executed deposit('fifty'), then raised a runtime TypeError: unsupported operand type(s) for +=: 'float' and 'str'
+2026-07-28 14:38:51,406 - WARNING - Withdrawal failed for Farooq: requested 10000.00, available 4000.00
+2026-07-28 14:38:51,407 - ERROR - InsufficientFundsError raised for account owner: Farooq
+2026-07-28 14:38:51,407 - INFO - Final balance: 4000.00
+2026-07-28 14:38:51,407 - INFO - Transactions saved successfully
+2026-07-28 14:38:51,407 - INFO - Loaded transactions: [{'id': 1, 'amount': 500.0, 'category': 'withdrawal'}, {'id': 2, 'amount': 1200.0, 'category': 'deposit'}]
+2026-07-28 14:38:51,408 - INFO - Today's transactions: []
+2026-07-28 14:38:51,408 - INFO - Transaction counts by category: Counter({'withdrawal': 2, 'deposit': 1})
+2026-07-28 14:38:51,408 - INFO - Transaction amounts by category: {'withdrawal': [1000, 2500], 'deposit': [500]}
